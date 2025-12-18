@@ -11,7 +11,22 @@ const local_alakitott = JSON.parse(local_kapott);
 for(let index in local_alakitott_alap){
     Termek[index] = local_alakitott_alap[index];
 }
+/*
+  file = event.target.files[0];
+  console.log(file)
 
+  const olvaso = new FileReader();
+
+olvaso.onload = function(e) {
+    const base64Kod = e.target.result; 
+    
+    console.log(base64Kod);
+    
+    console.log("Átalakítás kész!");
+};
+
+olvaso.readAsDataURL(file);
+*/
 
 for(let index in local_alakitott){
     Termek[index] = local_alakitott[index];
