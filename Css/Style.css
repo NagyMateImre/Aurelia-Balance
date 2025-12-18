@@ -1,0 +1,221 @@
+/*
+    colors
+    #F4E7E1 - szürkés
+    #FF9B45 - Barack
+    #D5451B - Narancs
+    #521C0D - vörös/barna
+
+*/
+
+.permanent-marker-regular {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+body{
+    padding: 0;
+    z-index: 0;
+    margin: 0;
+    background-color:#521C0D;
+}
+
+.Nav{
+    background-color: #D5451B;
+    display: flex;
+}
+
+#Kep{
+    float: left;
+    margin-top: -15px;
+}
+
+.Nav-links{
+    gap: 2rem;
+    display: flex;
+    margin-top: 20px;
+    font-family: Permanent Marker;
+    font-size: 1.25em;
+}
+
+.Nav-Item{
+    list-style: none;
+    margin:10px;
+    transition: all ease-in-out 0.25s;
+}
+
+.Nav-Item:hover{
+    text-shadow: 2px 2px #F4E7E1;
+}
+
+.Nav-Item-Link{
+    text-decoration:none;
+    color: #FF9B45;
+}
+
+svg{
+    z-index: 1000;
+}
+
+#Section_Name{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #FF9B45;
+}
+
+#Section_Description{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #FF9B45;
+}
+
+#Favorite_products{
+    background: linear-gradient(#D5451B, #FF9B45);
+}
+
+#Fav_Top{
+    margin-bottom: -26px;
+}
+
+#Fav_Bottom{
+    margin-top: -26px;
+}
+
+.Cards_Title{
+    text-align: center;
+    font-family:sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.Cards{
+    display: flex;
+    gap: 6em;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_main{
+    background-color: #882a0f;
+    width: fit-content;
+    border-radius: 25px;
+    padding-bottom: 35px;
+    margin-left: 10px;
+    z-index: 1001;
+}
+
+.card_description{
+    text-align: center;
+}
+
+.card_description>h1{
+    color: #FF9B45;
+    font-size: 0.95em;
+}
+
+.card_description>a{
+    color: black;
+    text-decoration: none;
+    color: #FF9B45;
+}
+
+.card_description>a:hover{
+    font-size: 1.01em;
+    font-weight: bolder;
+}
+
+.Delete_btn, .Update_btn{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    padding: 5px;
+    border: none;
+    color: #FF9B45;
+    background-color: #D5451B;
+    transition: all ease-in-out 0.4s;
+}
+
+.Delete_btn:hover, .Update_btn:hover{
+    color: #D5451B;
+    background-color: #FF9B45;
+    border-radius: 25px;
+    padding: 7px;
+    box-shadow: 2px 3px #521C0D;
+}
+
+.card_img{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 250px;
+}
+
+/*
+
+#Miki_terv{
+    background-color: black;
+    padding: 50px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 45%;
+}
+
+*/
+
+#Products_form{
+    display: flex;
+    gap: 6em;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#NewProduct,#Product_Update{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    overflow: auto;
+    position: fixed;
+    z-index: 1002;
+    left: 0;
+    top: 0;
+    text-align: center;
+    padding-top: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+#Menu{
+    display: grid;
+    flex-wrap: wrap;
+    gap: 20px;
+    background:linear-gradient(#D5451B 25%,#FF9B45);
+    padding: 20px 75px;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+}
+
+.Menu_Btn{
+    border: 0px solid black;
+    border-radius: 25px;
+    border: none;
+    padding: 10px;
+    background-color: #D5451B;
+    color: #521C0D;
+    transition: all ease 0.35s;
+}
+
+.Menu_Btn:hover{
+    background-color: #521C0D;
+    color: #D5451B;
+    transform: rotate(3.5deg);
+}
