@@ -151,3 +151,17 @@ document.addEventListener('DOMContentLoaded', e =>{
         Card_Info_div.appendChild(Update_button)
     }
 })
+
+
+function Kereses() {
+    const keresett = search.value.toLowerCase();
+    const cards = document.querySelectorAll(".card_main");
+
+    for (let i = 0; i < Termek.length; i++) {
+        if (Termek[i].TermekNeve.toLowerCase().includes(keresett)) {
+            cards[i].style.display = "";
+        } else {
+            cards[i].style.display = "none";
+        }
+    }
+}
