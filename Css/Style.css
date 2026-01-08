@@ -104,6 +104,7 @@ svg{
     padding-bottom: 35px;
     margin-left: 10px;
     z-index: 1001;
+    padding: 10px;
 }
 
 .card_description{
@@ -153,26 +154,13 @@ svg{
     width: 250px;
 }
 
-/*
-
-#Miki_terv{
-    background-color: black;
-    padding: 50px;
-    width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    border-radius: 45%;
-}
-
-*/
-
 #Products_form{
     display: flex;
     gap: 6em;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin-bottom: 25px;
 }
 
 #NewProduct,#Product_Update{
