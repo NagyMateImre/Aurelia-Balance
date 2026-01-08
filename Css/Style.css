@@ -98,7 +98,8 @@ svg{
 }
 
 .card_main{
-    background-color: #882a0f;
+    background-color: rgba(136, 42, 15, 0.5);
+    box-shadow: 2px 3px #FF9B45;
     width: fit-content;
     border-radius: 25px;
     padding-bottom: 35px;
@@ -206,4 +207,42 @@ svg{
     background-color: #521C0D;
     color: #D5451B;
     transform: rotate(3.5deg);
+}
+
+.Contact{
+    text-align: center;
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    justify-content: center;
+}
+
+.Contact>img{
+    padding: 0px 25px;
+}
+
+#Add_btn{
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #FF9B45;
+    background-color: #882a0f;
+    font-family:fantasy;
+    font-size: large;
+}
+
+#Add_btn:hover{
+    box-shadow: 2px 3px #D5451B;
+}
+
+#search{
+    background-color: #882a0f;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+#search::placeholder{
+    color: white;
 }
